@@ -1,12 +1,38 @@
-# React + Vite
+# Color Changer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React application built to help understand and practice the `useState` hook.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main goal of this project is to demonstrate how to use the `useState` hook in React for managing component state. In this app, the background color changes dynamically based on user interaction.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Change the background color by clicking on Red, Green, or Blue buttons.
+- Uses Tailwind CSS utility classes for styling.
+- Demonstrates basic React concepts and state management.
+
+## Getting Started
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+3. **Open your browser:**  
+   Go to [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
+
+## Learning Focus
+
+- Using the `useState` hook to manage UI state.
+- Handling user events to update state.
+- Applying dynamic class names based on state.
+
+## License
+
+This project
